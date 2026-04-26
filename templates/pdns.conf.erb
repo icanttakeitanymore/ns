@@ -1,0 +1,17 @@
+launch=gpgsql
+gpgsql-host=pg-common.db.east.local
+gpgsql-user=pdns
+gpgsql-dbname=pdns
+gpgsql-dnssec=yes
+
+gpgsql-extra-connection-parameters=sslmode=verify-full sslcert=/etc/powerdns/pg_cert.pem sslkey=/etc/powerdns/pg_cert_key.pem sslrootcert=/etc/powerdns/pg_ca.pem
+
+local-address=127.0.0.1
+local-port=5300
+
+api=yes
+api-key=<%= @root_apikey %>
+webserver=yes
+webserver-address=127.0.0.1
+webserver-port=8081
+webserver-allow-from=127.0.0.1

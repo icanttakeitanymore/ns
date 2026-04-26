@@ -1,0 +1,19 @@
+dnssec:
+  log_bogus: true
+  validation: off
+incoming:
+  listen:
+    - 0.0.0.0:53
+outgoing:
+  source_address:
+    - 0.0.0.0
+recursor:
+  forward_zones:
+    - zone: "east.local"
+      forwarders:
+        - 127.0.0.1:5300
+  forward_zones_recurse:
+    - zone: "."
+      forwarders:
+        - 8.8.8.8
+        - 8.8.4.4
