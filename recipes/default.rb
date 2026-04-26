@@ -4,6 +4,7 @@ secret_conf = openbao.read(node['ns']['secret']['path'], node['ns']['secret']['m
 
 %w(
   pdns-server
+  pdns-backend-pgsql
   pdns-recursor
 ).each do |pkg|
   package pkg do

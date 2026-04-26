@@ -11,7 +11,8 @@ recursor:
   forward_zones:
     - zone: "east.local"
       forwarders:
-        - 127.0.0.1:5300
+        - 192.168.5.2:5300
+        - 192.168.5.3:5300
   forward_zones_recurse:
     - zone: "."
       forwarders:
