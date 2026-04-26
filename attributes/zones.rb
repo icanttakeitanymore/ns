@@ -15,6 +15,13 @@ default[:ns][:zones] = {
 
       ['vault.east.local', '120', '10.100.0.100'],
       ['workstation.east.local', '3600', '192.168.5.1'],
+      ['01.cp.east.local', '120', '192.168.5.18'],
+      ['02.cp.east.local', '120', '192.168.5.19'],
+      ['03.cp.east.local', '120', '192.168.5.20'],
+      ['01.kubelet.east.local', '120', '192.168.5.22'],
+      ['02.kubelet.east.local', '120', '192.168.5.23'],
+      ['03.kubelet.east.local', '120', '192.168.5.24'],
+      ['cp.east.local', '120', '192.168.5.21'],
     ],
   }
 }
