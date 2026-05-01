@@ -21,9 +21,9 @@ default[:ns][:zones] = {
       ['01.kubelet.east.local', '120', '192.168.5.22'],
       ['02.kubelet.east.local', '120', '192.168.5.23'],
       ['03.kubelet.east.local', '120', '192.168.5.24'],
-      ['01.scylla.east.local', '120', '192..168.5.25'],
-      ['02.scylla.east.local', '120', '192..168.5.26'],
-      ['03.scylla.east.local', '120', '192..168.5.27'],
+      ['01.scylla.east.local', '120', '192.168.5.25'],
+      ['02.scylla.east.local', '120', '192.168.5.26'],
+      ['03.scylla.east.local', '120', '192.168.5.27'],
       ['cp.east.local', '120', '192.168.5.21'],
     ],
   }
