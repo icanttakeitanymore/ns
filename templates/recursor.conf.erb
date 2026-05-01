@@ -13,6 +13,9 @@ recursor:
       forwarders:
         - 192.168.5.2:5300
         - 192.168.5.3:5300
+    - zone: "kube.east.local"
+      forwarders:
+        - 10.30.0.1:53
   forward_zones_recurse:
     - zone: "."
       forwarders:

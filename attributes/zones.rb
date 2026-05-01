@@ -2,7 +2,7 @@ default[:ns][:zones] = {
   'east.local' => {
     'ns' => ['ns1.east.local', 'ns2.east.local'],
     'a' => [  
-      ['01.pg-common.db.east.local', '120', '192.168.5.14)'],
+      ['01.pg-common.db.east.local', '120', '192.168.5.14'],
       ['02.pg-common.db.east.local', '120', '192.168.5.15'],
       ['03.pg-common.db.east.local', '120', '192.168.5.16'],
       ['pg-common.db.east.local', '120', '192.168.5.17'],
@@ -21,6 +21,9 @@ default[:ns][:zones] = {
       ['01.kubelet.east.local', '120', '192.168.5.22'],
       ['02.kubelet.east.local', '120', '192.168.5.23'],
       ['03.kubelet.east.local', '120', '192.168.5.24'],
+      ['01.scylla.east.local', '120', '192..168.5.25'],
+      ['02.scylla.east.local', '120', '192..168.5.26'],
+      ['03.scylla.east.local', '120', '192..168.5.27'],
       ['cp.east.local', '120', '192.168.5.21'],
     ],
   }
